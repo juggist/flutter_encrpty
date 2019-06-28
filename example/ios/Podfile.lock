@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_encrypt (0.0.2):
+    - Flutter
+    - GLEncryptManager
+  - GLEncryptManager (0.0.1)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_encrypt (from `.symlinks/plugins/flutter_encrypt/ios`)
+  - GLEncryptManager (from `https://github.com/GrayLand119/GLEncryptManager.git`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_encrypt:
+    :path: ".symlinks/plugins/flutter_encrypt/ios"
+  GLEncryptManager:
+    :git: https://github.com/GrayLand119/GLEncryptManager.git
+
+CHECKOUT OPTIONS:
+  GLEncryptManager:
+    :commit: 04c3902ddcffd6b3799f71f0918cf42f291995eb
+    :git: https://github.com/GrayLand119/GLEncryptManager.git
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_encrypt: 0163ec6ff3465e5db5fa8388ea5d84ba8ba40fa5
+  GLEncryptManager: 96db617e8cca66fd2b9aed3db74bc254d1f08c13
+
+PODFILE CHECKSUM: d3fb07fffcc756efe7f1ef761a0c9351325b1334
+
+COCOAPODS: 1.5.3
