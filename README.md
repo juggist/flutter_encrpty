@@ -2,16 +2,26 @@
 
 A new flutter plugin project for DES encrypt.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+To use this plugin, add `flutter_encrypt` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter_encrypt: '^1.0.8'
+```
+## API
+
+```dart
+IOS 需要额外的操作
+在PodFile里添加
+pod 'GLEncryptManager', :git => "https://github.com/GrayLand119/GLEncryptManager.git"
+
+
+import 'package:flutter_encrypt/flutter_encrypt.dart';
+
+String result = await FlutterEncryptLib.getDES("value", "key");
+```
 
 ## Note
 publish需要终端代理(在terminal输入export http_proxy=socks5:ip,export https_proxy=socks5:ip 仍无效)  
@@ -28,6 +38,8 @@ IOS 引入第三方包  (podspec 不支持ssl引入,其它可直接在podspec里
 3.发布到dartpub    
 4.在新项目里引入发布到dartpub的插件，然后重复第一步操作，把第三方包正确引入到新项目里，让podspec能有引用
 
+## Author
 
+This flutter_encrypt plugin for Flutter is developed by [juggist](https://github.com/juggist). You can contact us at <735596768@qq.com>
 
 
