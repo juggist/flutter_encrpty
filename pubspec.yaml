@@ -2,7 +2,7 @@ name: flutter_encrypt
 description: A new flutter plugin project for DES encrypt.
 author: juggist <danchun963@gmail.com>
 homepage: https://github.com/juggist/flutter_encrypt_lib
-version: 1.0.0
+version: 1.0.8
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
